@@ -1,9 +1,9 @@
-// Home/index.js
-
 import React from 'react';
+import './home.css'
 
 function Home() {
   return (
+    <div className="container">
     <div className="home">
       <h1>Welcome to My Portfolio</h1>
       <p>
@@ -11,7 +11,8 @@ function Home() {
         component to display your content.
       </p>
     </div>
-  );
+  </div>
+);
 }
 
 export default Home;

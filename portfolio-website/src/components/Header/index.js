@@ -1,12 +1,11 @@
 import React from 'react';
+import './header.css';
 
 function Header() {
   return (
     <header className="header">
       <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-        </ul>
+        <h1>Sabin Budhathoki</h1>
       </nav>
     </header>
   );

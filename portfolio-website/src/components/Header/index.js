@@ -5,7 +5,12 @@ function Header() {
   return (
     <header className="header">
       <nav>
-        <h1>Sabin Budhathoki</h1>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/Projects">Projects</a></li>
+          <li><a href="/Skills">Skills</a></li>
+          <li><a href="/Contact">Contact</a></li>
+        </ul>
       </nav>
     </header>
   );
